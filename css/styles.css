@@ -168,6 +168,16 @@ video {
     color: #e6e4e1;
 }
 
+.servico{
+    border: 1px solid red;
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 @keyframes fade-text{
     0% {
         opacity: 0;

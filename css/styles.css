@@ -8,8 +8,12 @@
 /*Fonte Monst. playfair display e poppins*/
 
 body{
-    background-color: #e6e4e1;
+    background-color: #011329;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 header{
@@ -169,13 +173,64 @@ video {
 }
 
 .servico{
-    border: 1px solid red;
     width: 90%;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 20px;
+}
+
+.servico .title{
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    color: #e6e4e1;
+    margin: 10px;
+}
+
+ .cards{
+    width: 80%;
+    color: #e6e4e1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.card{
+    width: 320px;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: ease-in-out 0.2s;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.descricao{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.icone{
+    width: 180px;
+    height: 180px;
+}
+
+.text{
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+}
+
+.card:hover{
+    background-color: #e6e4e1;
+    color: #011329;
+
 }
 
 @keyframes fade-text{

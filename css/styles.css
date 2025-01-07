@@ -174,12 +174,21 @@ video {
 
 .servico{
     width: 90%;
-    height: auto;
+    height: 950px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 20px;
+    
+}
+
+video {
+    height: 650px;
+    width: 100%;
+    position: absolute;
+    object-fit: cover; 
+    z-index: -1; 
 }
 
 .servico .title{
@@ -201,14 +210,16 @@ video {
 
 .card{
     width: 320px;
-    height: auto;
+    height: 400px;
     background-color: transparent;
     display: flex;
     align-items: center;
     flex-direction: column;
     transition: ease-in-out 0.2s;
     margin: 15px;
+    padding: 10px;
     border-radius: 10px;
+
 }
 
 .descricao{
@@ -217,20 +228,21 @@ video {
 }
 
 .icone{
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
 }
 
 .text{
     width: 80%;
     text-align: center;
     padding: 10px;
+    margin-bottom: 5px;
 }
 
 .card:hover{
-    background-color: #e6e4e1;
+    background-image: url(/img/back_servico.png);
     color: #011329;
-
+    transition: background-imge 1s, border-radius 1s;
 }
 
 @keyframes fade-text{

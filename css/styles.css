@@ -179,12 +179,11 @@ video {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 20px;
-    
+
 }
 
-video {
-    height: 650px;
+.videoservice {
+    height: 950px;
     width: 100%;
     position: absolute;
     object-fit: cover; 
@@ -195,7 +194,9 @@ video {
     font-family: "Playfair Display", serif;
     font-size: 32px;
     color: #e6e4e1;
-    margin: 10px;
+    margin-top: 50px;
+    width: 60%;
+    text-align: center;
 }
 
  .cards{

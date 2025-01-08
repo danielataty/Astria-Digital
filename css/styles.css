@@ -212,7 +212,8 @@ video {
 .card{
     width: 320px;
     height: 400px;
-    background-color: transparent;
+    background-color: #007bff0e;
+    box-shadow: #e6e4e115 0px 8px 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
